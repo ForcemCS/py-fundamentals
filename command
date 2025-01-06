@@ -21,4 +21,8 @@ Python Package Index（https//pypi.org）是一个仓库，是所有第三方库
   会根据requirements.txt内容对package升级或降级
 
 ## 更新pip
-python -m pip install --upgrade pip 
+python -m pip install --upgrade pip
+## 运行py code
+当我们写了一段python code后，运行Python的第一步是Python需要编译这段代码，转换成字节码（bytecode）,然后虚拟机（虚拟环境）负责解释字节码中的代码，转换为对操作系统的请求，
+然后操作系统做出响应，虚拟机做出响应
+ 
